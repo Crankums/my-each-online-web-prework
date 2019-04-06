@@ -1,5 +1,4 @@
-def my_each(array)# put argument(s) here
-new_arr = []
+def my_each(array)
 counter = 0
   while counter<array.length
     yield array[counter]
